@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300");
 
@@ -734,7 +734,6 @@
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
-				box-shadow: 0px 0px 5px 1px #373141ab;
 				box-shadow: 0 0 0 1.5em #ffffff;
 			}
 
@@ -748,7 +747,6 @@
 				height: 1px;
 				z-index: -1;
 				background: #c8cccf;
-				box-shadow: 0px 0px 5px 1px #373141ab;
 			}
 
 		@media screen and (max-width: 480px) {
@@ -761,7 +759,6 @@
 
 				#main .avatar:before {
 					left: -2em;
-					box-shadow: 0px 0px 5px 1px #373141ab;
 					width: calc(100% + 4em);
 				}
 

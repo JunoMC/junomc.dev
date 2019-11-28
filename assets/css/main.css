@@ -746,7 +746,6 @@
 
 			#main .avatar:before {
 				content: '';
-				border: 2px solid transparent;
 				position: absolute;
 				top: 50%;
 				left: -3em;

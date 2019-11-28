@@ -726,10 +726,12 @@
 
 		#main .avatar {
 			position: relative;
+			display: block;
 			margin-bottom: 1.5em;
 		}
 
 			#main .avatar img {
+				display: block;
 				border: 3px solid transparent;
 				margin: 0 auto;
 				border-radius: 100%;
@@ -745,6 +747,7 @@
 
 			#main .avatar:before {
 				content: '';
+				display: block;
 				position: absolute;
 				top: 50%;
 				left: -3em;

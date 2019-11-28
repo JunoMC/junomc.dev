@@ -730,6 +730,18 @@
 			margin-bottom: 1.5em;
 		}
 
+			#main .avatar:before {
+				content: '';
+				display: block;
+				position: absolute;
+				top: 50%;
+				left: -3em;
+				width: calc(100% + 6em);
+				height: 1.5px;
+				z-index: -1;
+				background: #c8cccf;
+			}
+
 			#main .avatar img {
 				border: 3px solid transparent;
 				margin: 0 auto;
@@ -742,18 +754,6 @@
 				margin: 0 auto;
 				border-radius: 100%;
 				box-shadow: 0px 0px 5px 1px #ff0000;
-			}
-
-			#main .avatar img:before {
-				content: '';
-				display: block;
-				position: absolute;
-				top: 50%;
-				left: -3em;
-				width: calc(100% + 6em);
-				height: 1.5px;
-				z-index: -1;
-				background: #c8cccf;
 			}
 
 		@media screen and (max-width: 480px) {

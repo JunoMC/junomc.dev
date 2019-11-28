@@ -734,7 +734,14 @@
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
-				box-shadow: 0 0 0 1.5em #ffffff;
+				box-shadow: 0 0 0 1.5em #333333;
+			}
+			
+			#main .avatar img:hover {
+				display: block;
+				margin: 0 auto;
+				border-radius: 100%;
+				box-shadow: 0 0 0 1.5em #ff0000;
 			}
 
 			#main .avatar:before {

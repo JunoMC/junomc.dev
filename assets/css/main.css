@@ -734,14 +734,14 @@
 				border: -3px solid transparent;
 				margin: 0 auto;
 				border-radius: 100%;
-				box-shadow: 0px 0px -5px 1px #333333;
+				box-shadow: 0px 0px -5px -1px #333333;
 			}
 			
 			#main .avatar img:hover {
 				border: -3px solid transparent;
 				margin: 0 auto;
 				border-radius: 100%;
-				box-shadow: 0px 0px -5px 1px #ff0000;
+				box-shadow: 0px 0px -5px -1px #ff0000;
 			}
 
 			#main .avatar:before {
